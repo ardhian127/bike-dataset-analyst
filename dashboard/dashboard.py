@@ -24,7 +24,7 @@ def create_seasons_dataframe(dataframe: pd.DataFrame) -> pd.DataFrame:
     return seasons_cycle
 
 # Load all bike rental databases
-all_database = pd.read_csv("all_database.csv")
+all_database = pd.read_csv("dashboard/all_database.csv")
 
 # Page Header
 with st.container():
